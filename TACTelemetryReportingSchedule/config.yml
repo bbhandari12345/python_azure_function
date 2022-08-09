@@ -1,0 +1,60 @@
+# api:
+#   apim_key: process.env.APIMKEY
+#   base_url: https://ucmsshowcasetac.azure-api.net/prod
+#   endpoints:
+#     user_events: UserEvents
+#     payment_method_details: telemetry/PaymentMethodDetails
+#     sales: telemetry/sales
+#     support: telemetry/support
+#     support_topic: telemetry/supporttopics
+#     device_details: telemetry/DeviceDetails
+# periods:
+#   1: [0,0]
+#   2: [1,1]
+#   3: [2,2]
+#   4: [3,3]
+#   5: [4,4]
+#   6: [5,5]
+#   7: [6,6]
+#   weekly: [0, 6]
+#   28_day: [0, 27]
+# report_folder: 'reports'
+# Email_distribution_list:
+#  from_email: 'info@unifiedcommunications.com'
+#  to_emails_recipient1 : "mkasar@unifiedcommunications.com"
+#  to_emails_recipient2 : "manoj.kasar99@gmail.com"
+#  to_emails_recipient3 : "mkasar@unifiedcommunications.com"
+#  to_emails_recipient4 : "mkasar@unifiedcommunications.com"
+#  email_subject : "MSFT TAC Telemetry Report"
+#  email_html_content : 'Hi, please find the attachments of Microsoft TAC telemetry report.'
+
+api:
+  apim_key: process.env.APIMKEY
+  base_url: https://ucmsshowcasetac.azure-api.net/prod
+  endpoints:
+    user_events: UserEvents
+    payment_method_details: telemetry/PaymentMethodDetails
+    sales: telemetry/sales
+    support: telemetry/support
+    support_topic: telemetry/supporttopics
+    device_details: telemetry/DeviceDetails
+periods:
+  1: [0,0]
+  2: [1,1]
+  3: [2,2]
+  4: [3,3]
+  5: [4,4]
+  6: [5,5]
+  7: [6,6]
+  weekly: [0, 6]
+  28_day: [0, 27]
+report_folder: '/reports'
+Email_distribution_list:
+ from_email: 'basantbhandari2074@gmail.com'
+ to_emails_recipient1 : "bbhandari@unifiedcommunications.com"
+ to_emails_recipient2 : "manoj.kasar99@gmail.com"
+ to_emails_recipient3 : "mkasar@unifiedcommunications.com"
+ to_emails_recipient4 : "mkasar@unifiedcommunications.com"
+ email_subject : "MSFT TAC Telemetry Report"
+ email_html_content : 'Hi, please find the attachments of Microsoft TAC telemetry report.'
+
